@@ -10,16 +10,19 @@ I/O Redirection: Redirect the input and output of commands using > and <.
 Piping: Use | to direct the output of one command to the input of another.
 
 **Compilation**
+
 To compile the shell program, use the following gcc command:
 
 gcc shell.c
 
 **Running the Program**
+
 After compilation, you can run the shell by executing the compiled output:
 
 ./shell
 
 **Usage Examples**
+
 **Basic Command Execution**
 
 osh> ls
@@ -38,6 +41,6 @@ osh> !!  # Re-executes the last command
 osh> ls > out.txt  # Redirects output of ls to out.txt
 osh> sort < in.txt  # Uses in.txt as input for sort
 
-Piping
+**Piping**
 
 osh> ls -l | less  # Pipes the output of ls -l to less
